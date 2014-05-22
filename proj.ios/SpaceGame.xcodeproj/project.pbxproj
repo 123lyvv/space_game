@@ -252,6 +252,7 @@
 		CA4ED947192B902A004828C7 /* Stars1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA4ED932192B902A004828C7 /* Stars1.plist */; };
 		CA4ED948192B902A004828C7 /* Stars2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA4ED933192B902A004828C7 /* Stars2.plist */; };
 		CA4ED949192B902A004828C7 /* Stars3.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA4ED934192B902A004828C7 /* Stars3.plist */; };
+		CA4ED94C192BA769004828C7 /* CCParallaxNodeExtra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA4ED94A192BA769004828C7 /* CCParallaxNodeExtra.cpp */; };
 		D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D41A0AD0160F154A004552AE /* Default-568h@2x.png */; };
 		D446FD6E16102124000ADA7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD6D16102124000ADA7B /* Default@2x.png */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -762,6 +763,8 @@
 		CA4ED932192B902A004828C7 /* Stars1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Stars1.plist; sourceTree = "<group>"; };
 		CA4ED933192B902A004828C7 /* Stars2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Stars2.plist; sourceTree = "<group>"; };
 		CA4ED934192B902A004828C7 /* Stars3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Stars3.plist; sourceTree = "<group>"; };
+		CA4ED94A192BA769004828C7 /* CCParallaxNodeExtra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCParallaxNodeExtra.cpp; path = ../Classes/CCParallaxNodeExtra.cpp; sourceTree = "<group>"; };
+		CA4ED94B192BA769004828C7 /* CCParallaxNodeExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCParallaxNodeExtra.h; path = ../Classes/CCParallaxNodeExtra.h; sourceTree = "<group>"; };
 		D41A0AD0160F154A004552AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../proj.ios/Default-568h@2x.png"; sourceTree = "<group>"; };
 		D446FD6D16102124000ADA7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../proj.ios/Default@2x.png"; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -1294,6 +1297,8 @@
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
+				CA4ED94A192BA769004828C7 /* CCParallaxNodeExtra.cpp */,
+				CA4ED94B192BA769004828C7 /* CCParallaxNodeExtra.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -1914,6 +1919,7 @@
 				15A3D9071682F7D5002FB0C5 /* b2ChainShape.cpp in Sources */,
 				15A3D9081682F7D5002FB0C5 /* b2CircleShape.cpp in Sources */,
 				15A3D9091682F7D5002FB0C5 /* b2EdgeShape.cpp in Sources */,
+				CA4ED94C192BA769004828C7 /* CCParallaxNodeExtra.cpp in Sources */,
 				15A3D90A1682F7D5002FB0C5 /* b2PolygonShape.cpp in Sources */,
 				15A3D90B1682F7D5002FB0C5 /* b2BlockAllocator.cpp in Sources */,
 				15A3D90C1682F7D5002FB0C5 /* b2Draw.cpp in Sources */,
